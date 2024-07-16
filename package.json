@@ -1,6 +1,6 @@
 {
   "name": "com.lvl3mage.interpolation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Interpolation",
   "description": "A package that provides several interpolation-related utility classes.",
   "unity": "2021.3",
