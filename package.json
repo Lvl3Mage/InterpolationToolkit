@@ -3,5 +3,22 @@
   "version": "1.0.0",
   "displayName": "Interpolation",
   "description": "A package that provides several interpolation-related utility classes.",
-  "unity": "2021.3"
+  "unity": "2021.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lvl3Mage/Interpolation.git"
+  },
+  "keywords": [
+    "Utils"
+  ],
+  "author": "lvl3mage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lvl3Mage/Interpolation/issues"
+  },
+  "homepage": "https://github.com/Lvl3Mage/Interpolation#readme"
 }
