@@ -1,4 +1,6 @@
-﻿# Interpolation Package
+﻿[//]: # (/mainpage)
+
+# Interpolation Package
 
 This package offers a collection of interpolation utilities for Unity projects.
 

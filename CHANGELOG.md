@@ -1,3 +1,4 @@
 ﻿## [1.0.0] - 2024-07-16
-### First Release
 - Initial release of Interpolation
+## [1.0.1] - 2024-07-24
+- Added ValueInterpolation utility class

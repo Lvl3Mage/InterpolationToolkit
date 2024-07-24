@@ -28,7 +28,7 @@ namespace Interpolation
     	{
 		    float logA = Mathf.Log(from);
 		    float logB = Mathf.Log(to);
-    		float result = logB+(logA-logB)*Mathf.Exp(-speed*deltaTime);
+    		float result = To(logA, logB, speed, deltaTime);
 		    return Mathf.Exp(result);
     	}
     	/// <summary>
