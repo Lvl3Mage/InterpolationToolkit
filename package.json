@@ -1,20 +1,19 @@
-{
-  "name": "com.lvl3mage.interpolation",
+﻿{
+  "name": "com.lvl3mage.com.lvl3mage.interpolation-toolkit",
   "version": "1.0.0",
-  "displayName": "Interpolation",
-  "description": "A package that provides several interpolation-related utility classes.",
+  "displayName": "Interpolation Toolkit",
+  "description": "A collection of interpolation related utility functions",
   "unity": "2021.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lvl3Mage/Interpolation.git"
+    "url": "git+https://github.com/lvl3mage/InterpolationToolkit.git"
   },
   "keywords": [
-    "Utils"
   ],
   "author": "lvl3mage",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lvl3Mage/Interpolation/issues"
+    "url": "https://github.com/lvl3mage/InterpolationToolkit/issues"
   },
-  "homepage": "https://github.com/Lvl3Mage/Interpolation#readme"
+  "homepage": "https://github.com/lvl3mage/InterpolationToolkit#readme"
 }

@@ -1,21 +1,20 @@
 ﻿[//]: # (/mainpage)
 
-# Interpolation Package
-
-This package offers a collection of interpolation utilities for Unity projects.
-
-## Features
-- Frame-independent decay for smooth transitions between values.
-
+# Interpolation Toolkit
+A collection of interpolation related utility functions
 ## Requirements
 - Unity 2021.3 or later
 
 ## Installation
-To use the Interpolation package in your project, import the `com.lvl3mage.interpolation` package.
+Include a scoped registry with
+- _name:_ `com.lvl3mage`
+- _url:_ `https://registry.npmjs.org`
 
-## Usage
-The `Decay` class provides static methods to smoothly interpolate between two values, angles, or vectors over time, independent of the frame rate. This is particularly useful for animations and movement smoothing.
+Add the package to your Unity project by importing the `com.lvl3mage.interpolation-toolkit` package.
+## Documentation
+The documentation for Interpolation Toolkit can be found [here](https://lvl3mage.github.io/InterpolationToolkit).
 
-Example usage:
-```csharp
-float newValue = Decay.To(currentValue, targetValue, speed, Time.deltaTime);
+## Author
+Lvl3Mage - [GitHub](https://github.com/lvl3mage)
+
+Docs styling with [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css)

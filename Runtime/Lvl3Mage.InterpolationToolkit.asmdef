@@ -1,6 +1,6 @@
-{
-    "name": "Interpolation",
-    "rootNamespace": "Interpolation",
+﻿{
+    "name": "Lvl3Mage.InterpolationToolkit",
+    "rootNamespace": "Lvl3Mage.InterpolationToolkit",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
