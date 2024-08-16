@@ -25,20 +25,23 @@
 var NAVTREE =
 [
   [ "Interpolation Toolkit", "index.html", [
-    [ "Interpolation Toolkit", "index.html#autotoc_md1", [
-      [ "Requirements", "index.html#autotoc_md2", null ],
-      [ "Installation", "index.html#autotoc_md3", null ],
-      [ "Documentation", "index.html#autotoc_md4", null ],
-      [ "Author", "index.html#autotoc_md5", null ]
+    [ "Interpolation Toolkit", "index.html#autotoc_md2", [
+      [ "Requirements", "index.html#autotoc_md3", null ],
+      [ "Installation", "index.html#autotoc_md4", null ],
+      [ "Documentation", "index.html#autotoc_md5", null ],
+      [ "Author", "index.html#autotoc_md6", null ]
     ] ],
-    [ "[1.0.0] -", "a00037.html", null ],
-    [ "LICENSE", "a00038.html", null ],
+    [ "[1.0.0] -", "a00109.html", [
+      [ "[1.1.0] -", "a00109.html#autotoc_md1", null ]
+    ] ],
+    [ "LICENSE", "a00110.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ]
@@ -49,7 +52,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"a00017.html"
+"a00038.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

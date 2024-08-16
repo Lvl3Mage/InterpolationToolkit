@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['interpolate_0',['Interpolate',['../a00028.html',1,'Lvl3Mage::InterpolationToolkit']]],
-  ['interpolation_20toolkit_1',['Interpolation Toolkit',['../index.html',1,'']]]
+  ['cubicspline_0',['CubicSpline',['../a00068.html',1,'Lvl3Mage::InterpolationToolkit::Splines']]],
+  ['curves_1',['Curves',['../a00048.html',1,'Lvl3Mage::InterpolationToolkit']]]
 ];

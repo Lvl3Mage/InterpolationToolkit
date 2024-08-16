@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['decay_0',['Decay',['../a00024.html',1,'Lvl3Mage::InterpolationToolkit']]]
+  ['animationcurvespline_0',['AnimationCurveSpline',['../a00064.html',1,'Lvl3Mage::InterpolationToolkit::Splines::AnimationCurveSplineCreator']]],
+  ['animationcurvesplinecreator_1',['AnimationCurveSplineCreator',['../a00060.html',1,'Lvl3Mage::InterpolationToolkit::Splines']]]
 ];
