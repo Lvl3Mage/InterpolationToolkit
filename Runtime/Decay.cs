@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Lvl3Mage.InterpolationToolkit
 {
+	
 	public static class Decay
     {
     	/// <summary>
