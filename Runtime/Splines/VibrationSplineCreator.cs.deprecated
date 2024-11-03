@@ -6,12 +6,12 @@ using Random = System.Random;
 namespace Lvl3Mage.InterpolationToolkit.Splines
 {
 	[Serializable]
-	public class VibrationSplineCreator : I4PointSplineFactory, I2PointSplineFactory
+	public class VibrationSplineCreator<T> : I4PointSplineFactory<T>, I2PointSplineFactory<T>
 	{
 		[SerializeField] int vibrationCount;
 		[SerializeField] float magnitude;
 		[SerializeField] bool randomize = true;
-		public class VibrationSpline : ISpline
+		public class VibrationSpline : ISpline<T>
 		{
 			readonly int vibrationCount;
 			readonly float start;
@@ -51,9 +51,9 @@ namespace Lvl3Mage.InterpolationToolkit.Splines
 				return val;
 			}
 		}
-		public ISpline CreateSpline(float control1, float control2, float control3, float control4)
+		public ISpline<T> CreateSpline(T control1, T control2, T control3, T control4)
 		{
-			float[] points = {control1, control2, control3, control4};
+			T[] points = {control1, control2, control3, control4};
 			return CreateSpline(points);
 		}
 
@@ -63,7 +63,7 @@ namespace Lvl3Mage.InterpolationToolkit.Splines
 			return CreateSpline(points);
 		}
 
-		ISpline CreateSpline(float[] points)
+		ISpline<T> CreateSpline(T[] points)
 		{
 			for (int i = 0; i < points.Length; i++){
 				points[i] *= magnitude;

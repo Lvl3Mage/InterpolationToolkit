@@ -1,16 +1,18 @@
 namespace Lvl3Mage.InterpolationToolkit.Splines
 {
-	public interface ISpline
+	public delegate float[] ToComponents<T>(T value);
+	public delegate T FromComponents<T>(float[] value);
+	public interface ISpline<T>
 	{
-		public float Evaluate(float t);
+		public T Evaluate(float t);
 	}
-	public interface I4PointSplineFactory
+	public interface I4PointSplineFactory<T>
 	{
-		public ISpline CreateSpline(float control1, float control2, float control3, float control4);
+		public ISpline<T> CreateSpline(T control1, T control2, T control3, T control4);
 
-		public ISpline[] CreateSplines(float[] control1, float[] control2, float[] control3, float[] control4)
+		public ISpline<T>[] CreateSplines(T[] control1, T[] control2, T[] control3, T[] control4)
 		{
-			ISpline[] splines = new ISpline[control1.Length];
+			ISpline<T>[] splines = new ISpline<T>[control1.Length];
 			for (int i = 0; i < splines.Length; i++)
 			{
 				splines[i] = CreateSpline(control1[i], control2[i], control3[i], control4[i]);
@@ -18,13 +20,13 @@ namespace Lvl3Mage.InterpolationToolkit.Splines
 			return splines;
 		}
 	}
-	public interface I2PointSplineFactory
+	public interface I2PointSplineFactory<T>
 	{
-		public ISpline CreateSpline(float control1, float control2);
+		public ISpline<T> CreateSpline(T control1, T control2);
 
-		public ISpline[] CreateSplines(float[] control1, float[] control2)
+		public ISpline<T>[] CreateSplines(T[] control1, T[] control2)
 		{
-			ISpline[] splines = new ISpline[control1.Length];
+			ISpline<T>[] splines = new ISpline<T>[control1.Length];
 			for (int i = 0; i < splines.Length; i++)
 			{
 				splines[i] = CreateSpline(control1[i], control2[i]);
