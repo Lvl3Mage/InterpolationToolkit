@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['symmetricalcurve_0',['SymmetricalCurve',['../a00048.html#a93bc61703db1924be5e419b2663ac4d3',1,'Lvl3Mage::InterpolationToolkit::Curves']]]
+  ['runhorizontalkernel_0',['RunHorizontalKernel',['../a00076.html#ae3069bc4b9d61a85db34646a4e2c86bf',1,'Lvl3Mage::InterpolationToolkit::Splines::ComponentSplineTools']]]
 ];

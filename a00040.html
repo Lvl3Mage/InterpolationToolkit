@@ -6,12 +6,12 @@
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <!-- BEGIN opengraph metadata -->
-<meta property="og:title" content="Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Splines Namespace Reference" />
+<meta property="og:title" content="Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Curves Class Reference" />
 <!-- <meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" /> -->
 <meta property="og:description" content="A collection of interpolation related utility functions" />
 <meta property="og:url" content="https://lvl3mage.github.io/InterpolationToolkit" />
 <!-- END opengraph metadata -->
-<title>Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Splines Namespace Reference</title>
+<title>Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Curves Class Reference</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -116,36 +116,172 @@ $(document).ready(function(){initNavTree('a00040.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">Lvl3Mage.InterpolationToolkit.Splines Namespace Reference</div></div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="a00037.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Lvl3Mage.InterpolationToolkit.Curves Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html">AnimationCurveSplineCreator</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html">CubicSpline</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00084.html">I2PointSplineFactory</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00080.html">I4PointSplineFactory</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00076.html">ISpline</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html">Spline4PointFactoryProvider</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00088.html">SplineTools</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00092.html">VibrationSplineCreator</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a93bc61703db1924be5e419b2663ac4d3"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a93bc61703db1924be5e419b2663ac4d3">SymmetricalCurve</a> (float t, float slope)</td></tr>
+<tr class="memdesc:a93bc61703db1924be5e419b2663ac4d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a symmetrical curved value.  <a href="a00040.html#a93bc61703db1924be5e419b2663ac4d3">More...</a><br /></td></tr>
+<tr class="separator:a93bc61703db1924be5e419b2663ac4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf58dc4f69ba8e7a0ffca2d8810e92a9"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#abf58dc4f69ba8e7a0ffca2d8810e92a9">ValueDecay</a> (float value, float halfLife)</td></tr>
+<tr class="memdesc:abf58dc4f69ba8e7a0ffca2d8810e92a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a value decay curve.  <a href="a00040.html#abf58dc4f69ba8e7a0ffca2d8810e92a9">More...</a><br /></td></tr>
+<tr class="separator:abf58dc4f69ba8e7a0ffca2d8810e92a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a04e48ea2478ca10e824feea0964fbc"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a5a04e48ea2478ca10e824feea0964fbc">ValueActivation</a> (float val, float slope)</td></tr>
+<tr class="memdesc:a5a04e48ea2478ca10e824feea0964fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a value activation curve.  <a href="a00040.html#a5a04e48ea2478ca10e824feea0964fbc">More...</a><br /></td></tr>
+<tr class="separator:a5a04e48ea2478ca10e824feea0964fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a93bc61703db1924be5e419b2663ac4d3" name="a93bc61703db1924be5e419b2663ac4d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93bc61703db1924be5e419b2663ac4d3">&#9670;&nbsp;</a></span>SymmetricalCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Lvl3Mage.InterpolationToolkit.Curves.SymmetricalCurve </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>slope</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates a symmetrical curved value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>An input value in range 0 to 1</td></tr>
+    <tr><td class="paramname">slope</td><td>A slope value in range -inf to +inf</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>When slope is 0, returns t. When slope is positive, the curve is flat at the start and gradually steepens towards the end. When slope is negative, the curve is sharp at the start and gradually flattens towards the end. </dd></dl>
+
+</div>
+</div>
+<a id="a5a04e48ea2478ca10e824feea0964fbc" name="a5a04e48ea2478ca10e824feea0964fbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a04e48ea2478ca10e824feea0964fbc">&#9670;&nbsp;</a></span>ValueActivation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Lvl3Mage.InterpolationToolkit.Curves.ValueActivation </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>slope</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates a value activation curve. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>An input value in range 0 to 1</td></tr>
+    <tr><td class="paramname">slope</td><td>A slope value in range -inf to +inf </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a value activated 0 to 1 when slope is positive and 1 to 0 when slope is negative with the activation centered at 0.5. </dd></dl>
+
+</div>
+</div>
+<a id="abf58dc4f69ba8e7a0ffca2d8810e92a9" name="abf58dc4f69ba8e7a0ffca2d8810e92a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf58dc4f69ba8e7a0ffca2d8810e92a9">&#9670;&nbsp;</a></span>ValueDecay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Lvl3Mage.InterpolationToolkit.Curves.ValueDecay </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>halfLife</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates a value decay curve. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>An input value in range 0 to +inf</td></tr>
+    <tr><td class="paramname">halfLife</td><td>The value halflife</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a value decaying 1 to 0. The value is halved at each halfLife. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Curves.cs</li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00038.html">Lvl3Mage</a></li><li class="navelem"><a class="el" href="a00039.html">InterpolationToolkit</a></li><li class="navelem"><a class="el" href="a00040.html">Splines</a></li>
+    <li class="navelem"><a class="el" href="a00032.html">Lvl3Mage</a></li><li class="navelem"><a class="el" href="a00033.html">InterpolationToolkit</a></li><li class="navelem"><a class="el" href="a00040.html">Curves</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>

@@ -6,12 +6,12 @@
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <!-- BEGIN opengraph metadata -->
-<meta property="og:title" content="Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Interpolate Class Reference" />
+<meta property="og:title" content="Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Splines.Spline4PointFactoryProvider&lt; T &gt; Class Template Reference" />
 <!-- <meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" /> -->
 <meta property="og:description" content="A collection of interpolation related utility functions" />
 <meta property="og:url" content="https://lvl3mage.github.io/InterpolationToolkit" />
 <!-- END opengraph metadata -->
-<title>Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Interpolate Class Reference</title>
+<title>Interpolation Toolkit: Lvl3Mage.InterpolationToolkit.Splines.Spline4PointFactoryProvider&lt; T &gt; Class Template Reference</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -116,249 +116,25 @@ $(document).ready(function(){initNavTree('a00056.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="a00053.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Lvl3Mage.InterpolationToolkit.Interpolate Class Reference</div></div>
+  <div class="headertitle"><div class="title">Lvl3Mage.InterpolationToolkit.Splines.Spline4PointFactoryProvider&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a88de7ef5456d762d591d11a31cc5c5ba"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00056.html#a88de7ef5456d762d591d11a31cc5c5ba">Linear</a> (float a, float b, float t)</td></tr>
-<tr class="memdesc:a88de7ef5456d762d591d11a31cc5c5ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearly interpolates between two values.  <a href="a00056.html#a88de7ef5456d762d591d11a31cc5c5ba">More...</a><br /></td></tr>
-<tr class="separator:a88de7ef5456d762d591d11a31cc5c5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14e5ef378d8b494191af6cd84df0a30d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00056.html#a14e5ef378d8b494191af6cd84df0a30d">Bilinear</a> (float a, float b, float c, float d, float tx, float ty, Func&lt; float, float, float, float &gt; lerpFunc=null)</td></tr>
-<tr class="memdesc:a14e5ef378d8b494191af6cd84df0a30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs bilinear interpolation between four values.  <a href="a00056.html#a14e5ef378d8b494191af6cd84df0a30d">More...</a><br /></td></tr>
-<tr class="separator:a14e5ef378d8b494191af6cd84df0a30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ed7269bbd1e25d20ca6e8bdb5040c8"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00056.html#a12ed7269bbd1e25d20ca6e8bdb5040c8">Bilinear&lt; T &gt;</a> (T a, T b, T c, T d, float tx, float ty, Func&lt; T, T, float, T &gt; lerpFunc)</td></tr>
-<tr class="memdesc:a12ed7269bbd1e25d20ca6e8bdb5040c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs bilinear interpolation between four generic values.  <a href="a00056.html#a12ed7269bbd1e25d20ca6e8bdb5040c8">More...</a><br /></td></tr>
-<tr class="separator:a12ed7269bbd1e25d20ca6e8bdb5040c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a14e5ef378d8b494191af6cd84df0a30d" name="a14e5ef378d8b494191af6cd84df0a30d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14e5ef378d8b494191af6cd84df0a30d">&#9670;&nbsp;</a></span>Bilinear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static float Lvl3Mage.InterpolationToolkit.Interpolate.Bilinear </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>d</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>tx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>ty</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Func&lt; float, float, float, float &gt;&#160;</td>
-          <td class="paramname"><em>lerpFunc</em> = <code>null</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Performs bilinear interpolation between four values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>The value in the bottom left corner. </td></tr>
-    <tr><td class="paramname">b</td><td>The value in the bottom right corner. </td></tr>
-    <tr><td class="paramname">c</td><td>The value in the top left corner. </td></tr>
-    <tr><td class="paramname">d</td><td>The value in the top right corner. </td></tr>
-    <tr><td class="paramname">tx</td><td>The interpolation factor in the x direction. </td></tr>
-    <tr><td class="paramname">ty</td><td>The interpolation factor in the y direction. </td></tr>
-    <tr><td class="paramname">lerpFunc</td><td>The interpolation function to use. Takes two values and an interpolation factor and returns the interpolated value. Will default to linear interpolation if not provided. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The interpolated value. </dd></dl>
-
+<div class="dynheader">
+Inheritance diagram for Lvl3Mage.InterpolationToolkit.Splines.Spline4PointFactoryProvider&lt; T &gt;:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00055.svg" width="274" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-</div>
-<a id="a12ed7269bbd1e25d20ca6e8bdb5040c8" name="a12ed7269bbd1e25d20ca6e8bdb5040c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12ed7269bbd1e25d20ca6e8bdb5040c8">&#9670;&nbsp;</a></span>Bilinear&lt; T &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static T <a class="el" href="a00056.html#a14e5ef378d8b494191af6cd84df0a30d">Lvl3Mage.InterpolationToolkit.Interpolate.Bilinear</a>&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>d</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>tx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>ty</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Func&lt; T, T, float, T &gt;&#160;</td>
-          <td class="paramname"><em>lerpFunc</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Performs bilinear interpolation between four generic values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>The value in the bottom left corner. </td></tr>
-    <tr><td class="paramname">b</td><td>The value in the bottom right corner. </td></tr>
-    <tr><td class="paramname">c</td><td>The value in the top left corner. </td></tr>
-    <tr><td class="paramname">d</td><td>The value in the top right corner. </td></tr>
-    <tr><td class="paramname">tx</td><td>The interpolation factor in the x direction. </td></tr>
-    <tr><td class="paramname">ty</td><td>The interpolation factor in the y direction. </td></tr>
-    <tr><td class="paramname">lerpFunc</td><td>The interpolation function to use. Takes two values and an interpolation factor and returns the interpolated value. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The interpolated value. </dd></dl>
-
-</div>
-</div>
-<a id="a88de7ef5456d762d591d11a31cc5c5ba" name="a88de7ef5456d762d591d11a31cc5c5ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88de7ef5456d762d591d11a31cc5c5ba">&#9670;&nbsp;</a></span>Linear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static float Lvl3Mage.InterpolationToolkit.Interpolate.Linear </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Linearly interpolates between two values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>The start value. </td></tr>
-    <tr><td class="paramname">b</td><td>The end value. </td></tr>
-    <tr><td class="paramname">t</td><td>The interpolation factor. Should be between 0 and 1. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Interpolate.cs</li>
+<li>SplineFactory4Point.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00038.html">Lvl3Mage</a></li><li class="navelem"><a class="el" href="a00039.html">InterpolationToolkit</a></li><li class="navelem"><a class="el" href="a00056.html">Interpolate</a></li>
+    <li class="navelem"><a class="el" href="a00032.html">Lvl3Mage</a></li><li class="navelem"><a class="el" href="a00033.html">InterpolationToolkit</a></li><li class="navelem"><a class="el" href="a00034.html">Splines</a></li><li class="navelem"><a class="el" href="a00056.html">Spline4PointFactoryProvider</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
