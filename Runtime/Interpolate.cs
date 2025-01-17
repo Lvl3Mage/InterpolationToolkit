@@ -2,6 +2,9 @@
 
 namespace Lvl3Mage.InterpolationToolkit
 {
+	public delegate T Interpolator<T>(T a, T b, float t);
+
+	//todo: update to use the generic interpolator delegate
 	public class Interpolate
 	{
 		/// <summary>
@@ -60,6 +63,7 @@ namespace Lvl3Mage.InterpolationToolkit
 
 			return lerpFunc(lerpFunc(a, b, tx), lerpFunc(c, d, tx), ty);
 		}
+
 
 		/// <summary>
 		/// Performs bilinear interpolation between four generic values.
