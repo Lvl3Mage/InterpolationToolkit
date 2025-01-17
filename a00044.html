@@ -139,9 +139,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6969f9e7d1b6b440cf339b70a03c62d3"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00044.html#a6969f9e7d1b6b440cf339b70a03c62d3">To</a> (Vector3 from, Vector3 to, float speed, float deltaTime)</td></tr>
 <tr class="memdesc:a6969f9e7d1b6b440cf339b70a03c62d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Framerate independent decay between 2 vectors  <a href="a00044.html#a6969f9e7d1b6b440cf339b70a03c62d3">More...</a><br /></td></tr>
 <tr class="separator:a6969f9e7d1b6b440cf339b70a03c62d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ed51e1a0524a9a31b36dc5da9884e3"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00044.html#af5ed51e1a0524a9a31b36dc5da9884e3">To&lt; T &gt;</a> (T from, T to, float speed, float deltaTime, Func&lt; T, T, float, T &gt; lerpFunc)</td></tr>
-<tr class="memdesc:af5ed51e1a0524a9a31b36dc5da9884e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Framerate independent decay between 2 generic values  <a href="a00044.html#af5ed51e1a0524a9a31b36dc5da9884e3">More...</a><br /></td></tr>
-<tr class="separator:af5ed51e1a0524a9a31b36dc5da9884e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44d51cdacc52a6abfaea91833d3bcf9"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00044.html#af44d51cdacc52a6abfaea91833d3bcf9">To&lt; T &gt;</a> (T from, T to, float speed, float deltaTime, Interpolator&lt; T &gt; lerpFunc)</td></tr>
+<tr class="memdesc:af44d51cdacc52a6abfaea91833d3bcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Framerate independent decay between 2 generic values  <a href="a00044.html#af44d51cdacc52a6abfaea91833d3bcf9">More...</a><br /></td></tr>
+<tr class="separator:af44d51cdacc52a6abfaea91833d3bcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad1c19c7415bfccd4d5e70c550977d267" name="ad1c19c7415bfccd4d5e70c550977d267"></a>
@@ -321,8 +321,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af5ed51e1a0524a9a31b36dc5da9884e3" name="af5ed51e1a0524a9a31b36dc5da9884e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5ed51e1a0524a9a31b36dc5da9884e3">&#9670;&nbsp;</a></span>To&lt; T &gt;()</h2>
+<a id="af44d51cdacc52a6abfaea91833d3bcf9" name="af44d51cdacc52a6abfaea91833d3bcf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44d51cdacc52a6abfaea91833d3bcf9">&#9670;&nbsp;</a></span>To&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +357,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Func&lt; T, T, float, T &gt;&#160;</td>
+          <td class="paramtype">Interpolator&lt; T &gt;&#160;</td>
           <td class="paramname"><em>lerpFunc</em>&#160;</td>
         </tr>
         <tr>
