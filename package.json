@@ -1,6 +1,6 @@
 ﻿{
   "name": "com.lvl3mage.interpolation-toolkit",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "displayName": "Interpolation Toolkit",
   "description": "A collection of interpolation related utility functions",
   "unity": "2021.3",

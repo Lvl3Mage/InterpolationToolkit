@@ -76,7 +76,7 @@ namespace Lvl3Mage.InterpolationToolkit
 	    /// <param name="speed">Speed of the decay</param>
 	    /// <param name="deltaTime">Delta time since the last update</param>
 	    /// <param name="lerpFunc"> The lerp function to use for the generic type. Takes 2 values and an interpolation factor and returns the interpolated value. </param>
-	    public static T To<T>(T from, T to, float speed, float deltaTime, Func<T, T, float, T> lerpFunc)
+	    public static T To<T>(T from, T to, float speed, float deltaTime, Interpolator<T> lerpFunc)
 	    {
 		    // Member order reversed to match the order of the lerpFunc (a to b)
 		    return lerpFunc(to, from, Mathf.Exp(-speed*deltaTime));
